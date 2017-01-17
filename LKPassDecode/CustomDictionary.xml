@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+  <Words>
+    <Recognized>
+      <Word>Boktai</Word>
+      <Word>Django</Word>
+      <Word>Sabata</Word>
+      <Word>Swordmaster</Word>
+      <Word>Gunmaster</Word>
+      <Word>Huntmaster</Word>
+      <Word>Soll</Word>
+      <Word>Vanargand</Word>
+      <Word>Jormungandr</Word>
+      <Word>Terrennial</Word>
+      <Word>Otenko</Word>
+      <Word>Tove</Word>
+      <Word>Xis</Word>
+    </Recognized>
+    <DiscreteExceptions>
+      <Term>grandmaster</Term>
+    </DiscreteExceptions>
+  </Words>
+</Dictionary>
