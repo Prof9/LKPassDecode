@@ -100,6 +100,9 @@ namespace LKPassDecode {
 			NorthAmerica = 2,
 			Europe = 3
 		}
+		/// <summary>
+		/// A Boktai DS difficulty setting.
+		/// </summary>
 		public enum GameDifficulty {
 			Invalid = -1,
 			Normal = 0,
@@ -487,10 +490,10 @@ namespace LKPassDecode {
 
 		private char ReadCharJapanese(int offset) {
 			int c = ReadBits(offset, 8) << 8;
-			c += ReadBits(offset + 8, 8);
 			if (c == 0) {
 				return (char)0;
 			}
+			c += ReadBits(offset + 8, 8);
 
 			// Switch character table.
 			switch (c >> 8) {
